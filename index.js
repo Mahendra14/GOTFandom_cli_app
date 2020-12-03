@@ -6,7 +6,7 @@ console.log("Let's play a short quiz on GOT");
 console.log("-------------------");
 
 var score = 0;
-var highscore = 3;
+var highscore = 4;
 
 function play(ques,ans){
 
