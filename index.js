@@ -25,11 +25,11 @@ function play(ques,ans){
 }
 var hs1={
   name:"Mahendra",
-  score:2
+  score:4
 }
 var hs2={
   name:"Steve",
-  score:2
+  score:3
 }
 var hs = [hs1,hs2];
 var q1 = {
@@ -46,7 +46,17 @@ var q3 = {
   question:"\nWhat is Aarya Starks sword called?\nA Needle\nB OathKeeper\nC Unnamed\nD LongClaw\nType e to find the answer if you dont know\n",
   answer:"A"
 }
-var arrayQuestions = [q1,q2,q3];
+
+var q4 = {
+  question:"\nThe drummer of which famous band made a cameo appearance during the red wedding?\nA The Beatles \nB Cold Play\nC Noone\nD Pink Floyd\nType e to find the answer if you dont know\n",
+  answer:"B"
+}
+
+var q5 = {
+  question:"\nWhat is the name of the john snows's dire wolf?\nA Onion\nB Sweety\nC Ghost\nD Unnamed\nType e to find the answer if you dont know\n",
+  answer:"C"
+}
+var arrayQuestions = [q1,q2,q3,q4,q5];
 var len = arrayQuestions.length;
 for(var i=0;i<len;i++){
 var q = arrayQuestions[i];
